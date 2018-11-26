@@ -1,0 +1,944 @@
+<root>
+<map id="0">
+	<fields>
+		<Field id='1' 	type='wall'></Field>
+		<Field id='2' 	type='wall'></Field>
+		<Field id='3' 	type='wall'></Field>
+		<Field id='4' 	type='wall'></Field>
+		<Field id='5' 	type='wall'></Field>
+		<Field id='6' 	type='wall'></Field>
+		<Field id='7' 	type='switchhole'></Field>
+		<Field id='8' 	type='field'></Field>
+		<Field id='9' 	type='switch'></Field>
+		<Field id='10' 	type='wall'></Field>
+		<Field id='11' 	type='wall'></Field>
+		<Field id='12' 	type='field'></Field>
+		<Field id='13' 	type='field'></Field>
+		<Field id='14' 	type='field'></Field>
+		<Field id='15' 	type='wall'></Field>
+		<Field id='16' 	type='wall'></Field>
+		<Field id='17' 	type='field'></Field>
+		<Field id='18' 	type='field'></Field>
+		<Field id='19' 	type='field'></Field>
+		<Field id='20' 	type='wall'></Field>
+		<Field id='21' 	type='wall'></Field>
+		<Field id='22' 	type='wall'></Field>
+		<Field id='23' 	type='wall'></Field>
+		<Field id='24' 	type='wall'></Field>
+		<Field id='25' 	type='wall'></Field>
+	</fields>
+
+	<field>
+		<id>1</id>
+		<type>Wall</type>
+		<item>null</item>
+		<floortype>regular</floortype>
+		<neighboors>
+			<neighboor id='2' dir='right'></neighboor>
+			<neighboor id='6' dir='down'></neighboor>
+		</neighboors>
+	</field>
+	<field>
+		<id>2</id>
+		<type>Wall</type>
+		<item>null</item>
+		<floortype>regular</floortype>
+		<neighboors>
+			<neighboor id='3' dir='right'></neighboor>
+			<neighboor id='1' dir='left'></neighboor>
+			<neighboor id='7' dir='down'></neighboor>
+		</neighboors>
+	</field>
+	<field>
+		<id>3</id>
+		<type>Wall</type>
+		<item>null</item>
+		<floortype>regular</floortype>
+		<neighboors>
+			<neighboor id='4' dir='right'></neighboor>
+			<neighboor id='2' dir='left'></neighboor>
+			<neighboor id='8' dir='down'></neighboor>
+		</neighboors>
+	</field>
+	<field>
+		<id>4</id>
+		<type>Wall</type>
+		<item>null</item>
+		<floortype>regular</floortype>
+		<neighboors>
+			<neighboor id='5' dir='right'></neighboor>
+			<neighboor id='3' dir='left'></neighboor>
+			<neighboor id='9' dir='down'></neighboor>
+		</neighboors>
+	</field>
+	<field>
+		<id>5</id>
+		<type>Wall</type>
+		<item>null</item>
+		<floortype>regular</floortype>
+		<neighboors>
+			<neighboor id='4' dir='left'></neighboor>
+			<neighboor id='10' dir='down'></neighboor>
+		</neighboors>
+	</field>
+	<field>
+		<id>6</id>
+		<type>Wall</type>
+		<item>null</item>
+		<floortype>regular</floortype>
+		<neighboors>
+			<neighboor id='7' dir='right'></neighboor>
+			<neighboor id='11' dir='down'></neighboor>
+			<neighboor id='1' dir='up'></neighboor>
+		</neighboors>
+	</field>
+	<field>
+		<id>7</id>
+		<type>Field</type>
+		<item>Player</item>
+		<floortype>regular</floortype>
+		<neighboors>
+			<neighboor id='8' dir='right'></neighboor>
+			<neighboor id='12' dir='down'></neighboor>
+			<neighboor id='6' dir='left'></neighboor>
+			<neighboor id='2' dir='up'></neighboor>
+		</neighboors>
+	</field>
+	<field>
+		<id>8</id>
+		<type>Field</type>
+		<item>Box</item>
+		<floortype>regular</floortype>
+		<neighboors>
+			<neighboor id='9' dir='right'></neighboor>
+			<neighboor id='13' dir='down'></neighboor>
+			<neighboor id='7' dir='left'></neighboor>
+			<neighboor id='3' dir='up'></neighboor>
+		</neighboors>
+	</field>
+	<field>
+		<id>9</id>
+		<type>Field</type>
+		<item>null</item>
+		<floortype>regular</floortype>
+			<sh>7</sh>
+		<neighboors>
+			<neighboor id='10' dir='right'></neighboor>
+			<neighboor id='14' dir='down'></neighboor>
+			<neighboor id='8' dir='left'></neighboor>
+			<neighboor id='4' dir='up'></neighboor>
+		</neighboors>
+	</field>
+	<field>
+		<id>10</id>
+		<type>Wall</type>
+		<item>null</item>
+		<floortype>regular</floortype>
+		<neighboors>
+			<neighboor id='5' dir='up'></neighboor>
+			<neighboor id='9' dir='left'></neighboor>
+			<neighboor id='15' dir='down'></neighboor>
+		</neighboors>
+	</field>
+	<field>
+		<id>11</id>
+		<type>Wall</type>
+		<item>null</item>
+		<floortype>regular</floortype>
+		<neighboors>
+			<neighboor id='6' dir='up'></neighboor>
+			<neighboor id='12' dir='right'></neighboor>
+			<neighboor id='16' dir='down'></neighboor>
+		</neighboors>
+	</field>
+	<field>
+		<id>12</id>
+		<type>Regular</type>
+		<item>null</item>
+		<floortype>regular</floortype>
+
+		<neighboors>
+			<neighboor id='13' dir='right'></neighboor>
+			<neighboor id='17' dir='down'></neighboor>
+			<neighboor id='11' dir='left'></neighboor>
+			<neighboor id='7' dir='up'></neighboor>
+		</neighboors>
+	</field>
+	<field>
+		<id>13</id>
+		<type>Regular</type>
+		<item>null</item>
+		<floortype>regular</floortype>
+		<neighboors>
+			<neighboor id='14' dir='right'></neighboor>
+			<neighboor id='18' dir='down'></neighboor>
+			<neighboor id='12' dir='left'></neighboor>
+			<neighboor id='8' dir='up'></neighboor>
+		</neighboors>
+	</field>
+	<field>
+		<id>14</id>
+		<type>Regular</type>
+		<item>null</item>
+		<floortype>regular</floortype>
+
+		<neighboors>
+			<neighboor id='15' dir='right'></neighboor>
+			<neighboor id='19' dir='down'></neighboor>
+			<neighboor id='13' dir='left'></neighboor>
+			<neighboor id='9' dir='up'></neighboor>
+		</neighboors>
+	</field>
+	<field>
+		<id>15</id>
+		<type>Wall</type>
+		<item>null</item>
+		<floortype>regular</floortype>
+		<neighboors>
+			<neighboor id='20' dir='down'></neighboor>
+			<neighboor id='14' dir='left'></neighboor>
+			<neighboor id='10' dir='up'></neighboor>
+		</neighboors>
+	</field>
+	<field>
+		<id>16</id>
+		<type>Wall</type>
+		<item>null</item>
+		<floortype>regular</floortype>
+		<neighboors>
+			<neighboor id='17' dir='right'></neighboor>
+			<neighboor id='21' dir='down'></neighboor>
+			<neighboor id='11' dir='up'></neighboor>
+		</neighboors>
+	</field>
+	<field>
+		<id>17</id>
+		<type>Field</type>
+		<item>null</item>
+		<floortype>regular</floortype>
+		<neighboors>
+			<neighboor id='18' dir='right'></neighboor>
+			<neighboor id='22' dir='down'></neighboor>
+			<neighboor id='16' dir='left'></neighboor>
+			<neighboor id='12' dir='up'></neighboor>
+		</neighboors>
+	</field>
+	<field>
+		<id>18</id>
+		<type>Regular</type>
+		<item>Box</item>
+		<floortype>regular</floortype>
+		<neighboors>
+			<neighboor id='19' dir='right'></neighboor>
+			<neighboor id='23' dir='down'></neighboor>
+			<neighboor id='17' dir='left'></neighboor>
+			<neighboor id='13' dir='up'></neighboor>
+		</neighboors>
+	</field>
+	<field>
+		<id>19</id>
+		<type>Field</type>
+		<item>Player</item>
+		<floortype>regular</floortype>
+		<neighboors>
+			<neighboor id='20' dir='right'></neighboor>
+			<neighboor id='24' dir='down'></neighboor>
+			<neighboor id='18' dir='left'></neighboor>
+			<neighboor id='14' dir='up'></neighboor>
+		</neighboors>
+	</field>
+	<field>
+		<id>20</id>
+		<type>Wall</type>
+		<item>null</item>
+		<floortype>regular</floortype>
+		<neighboors>
+			<neighboor id='15' dir='up'></neighboor>
+			<neighboor id='19' dir='left'></neighboor>
+			<neighboor id='25' dir='down'></neighboor>
+		</neighboors>
+	</field>
+	<field>
+		<id>21</id>
+		<type>Wall</type>
+		<item>null</item>
+		<floortype>regular</floortype>
+		<neighboors>
+			<neighboor id='22' dir='right'></neighboor>
+			<neighboor id='16' dir='up'></neighboor>
+		</neighboors>
+	</field>
+	<field>
+		<id>22</id>
+		<type>Wall</type>
+		<item>null</item>
+		<floortype>regular</floortype>
+		<neighboors>
+			<neighboor id='17' dir='up'></neighboor>
+			<neighboor id='23' dir='right'></neighboor>
+			<neighboor id='21' dir='left'></neighboor>
+		</neighboors>
+	</field>
+	<field>
+		<id>23</id>
+		<type>Wall</type>
+		<item>null</item>
+		<floortype>regular</floortype>
+		<neighboors>
+			<neighboor id='22' dir='left'></neighboor>
+			<neighboor id='18' dir='up'></neighboor>
+			<neighboor id='24' dir='right'></neighboor>
+		</neighboors>
+	</field>
+	<field>
+		<id>24</id>
+		<type>Wall</type>
+		<item>null</item>
+		<floortype>regular</floortype>
+		<neighboors>
+			<neighboor id='19' dir='up'></neighboor>
+			<neighboor id='25' dir='right'></neighboor>
+			<neighboor id='23' dir='left'></neighboor>
+		</neighboors>
+	</field>
+	<field>
+		<id>25</id>
+		<type>Wall</type>
+		<item>null</item>
+		<floortype>regular</floortype>
+		<neighboors>
+			<neighboor id='20' dir='up'></neighboor>
+			<neighboor id='24' dir='left'></neighboor>
+		</neighboors>
+	</field>
+
+</map>
+<map id="1">
+	<fields>
+		<Field id='1' 	type='wall'></Field>
+		<Field id='2' 	type='wall'></Field>
+		<Field id='3' 	type='wall'></Field>
+		<Field id='4' 	type='wall'></Field>
+		<Field id='5' 	type='wall'></Field>
+		<Field id='6' 	type='wall'></Field>
+		<Field id='7' 	type='switchhole'></Field>
+		<Field id='8' 	type='field'></Field>
+		<Field id='9' 	type='switch'></Field>
+		<Field id='10' 	type='wall'></Field>
+		<Field id='11' 	type='wall'></Field>
+		<Field id='12' 	type='field'></Field>
+		<Field id='13' 	type='target'></Field>
+		<Field id='14' 	type='field'></Field>
+		<Field id='15' 	type='wall'></Field>
+		<Field id='16' 	type='wall'></Field>
+		<Field id='17' 	type='field'></Field>
+		<Field id='18' 	type='field'></Field>
+		<Field id='19' 	type='field'></Field>
+		<Field id='20' 	type='wall'></Field>
+		<Field id='21' 	type='wall'></Field>
+		<Field id='22' 	type='target'></Field>
+		<Field id='23' 	type='field'></Field>
+		<Field id='24' 	type='field'></Field>
+		<Field id='25' 	type='wall'></Field>
+		<Field id='26' 	type='wall'></Field>
+		<Field id='27' 	type='field'></Field>
+		<Field id='28' 	type='field'></Field>
+		<Field id='29' 	type='field'></Field>
+		<Field id='30' 	type='wall'></Field>
+		<Field id='31' 	type='wall'></Field>
+		<Field id='32' 	type='field'></Field>
+		<Field id='33' 	type='target'></Field>
+		<Field id='34' 	type='field'></Field>
+		<Field id='35' 	type='wall'></Field>
+		<Field id='36' 	type='wall'></Field>
+		<Field id='37' 	type='field'></Field>
+		<Field id='38' 	type='field'></Field>
+		<Field id='39' 	type='field'></Field>
+		<Field id='40' 	type='wall'></Field>
+		<Field id='41' 	type='wall'></Field>
+		<Field id='42' 	type='field'></Field>
+		<Field id='43' 	type='hole'></Field>
+		<Field id='44' 	type='target'></Field>
+		<Field id='45' 	type='wall'></Field>
+		<Field id='46' 	type='wall'></Field>
+		<Field id='47' 	type='wall'></Field>
+		<Field id='48' 	type='wall'></Field>
+		<Field id='49' 	type='wall'></Field>
+		<Field id='50' 	type='wall'></Field>
+	</fields>
+
+	<field>
+		<id>1</id>
+		<type>Wall</type>
+		<item>null</item>
+		<floortype>regular</floortype>
+		<neighboors>
+			<neighboor id='2' dir='right'></neighboor>
+			<neighboor id='6' dir='down'></neighboor>
+		</neighboors>
+	</field>
+	<field>
+		<id>2</id>
+		<type>Wall</type>
+		<item>null</item>
+		<floortype>regular</floortype>
+		<neighboors>
+			<neighboor id='3' dir='right'></neighboor>
+			<neighboor id='1' dir='left'></neighboor>
+			<neighboor id='7' dir='down'></neighboor>
+		</neighboors>
+	</field>
+	<field>
+		<id>3</id>
+		<type>Wall</type>
+		<item>null</item>
+		<floortype>regular</floortype>
+		<neighboors>
+			<neighboor id='4' dir='right'></neighboor>
+			<neighboor id='2' dir='left'></neighboor>
+			<neighboor id='8' dir='down'></neighboor>
+		</neighboors>
+	</field>
+	<field>
+		<id>4</id>
+		<type>Wall</type>
+		<item>null</item>
+		<floortype>regular</floortype>
+		<neighboors>
+			<neighboor id='5' dir='right'></neighboor>
+			<neighboor id='3' dir='left'></neighboor>
+			<neighboor id='9' dir='down'></neighboor>
+		</neighboors>
+	</field>
+	<field>
+		<id>5</id>
+		<type>Wall</type>
+		<item>null</item>
+		<floortype>regular</floortype>
+		<neighboors>
+			<neighboor id='4' dir='left'></neighboor>
+			<neighboor id='10' dir='down'></neighboor>
+		</neighboors>
+	</field>
+	<field>
+		<id>6</id>
+		<type>Wall</type>
+		<item>null</item>
+		<floortype>regular</floortype>
+		<neighboors>
+			<neighboor id='7' dir='right'></neighboor>
+			<neighboor id='11' dir='down'></neighboor>
+			<neighboor id='1' dir='up'></neighboor>
+		</neighboors>
+	</field>
+	<field>
+		<id>7</id>
+		<type>Field</type>
+		<item>null</item>
+		<floortype>regular</floortype>
+		<neighboors>
+			<neighboor id='8' dir='right'></neighboor>
+			<neighboor id='12' dir='down'></neighboor>
+			<neighboor id='6' dir='left'></neighboor>
+			<neighboor id='2' dir='up'></neighboor>
+		</neighboors>
+	</field>
+	<field>
+		<id>8</id>
+		<type>Field</type>
+		<item>Box</item>
+		<floortype>regular</floortype>
+		<neighboors>
+			<neighboor id='9' dir='right'></neighboor>
+			<neighboor id='13' dir='down'></neighboor>
+			<neighboor id='7' dir='left'></neighboor>
+			<neighboor id='3' dir='up'></neighboor>
+		</neighboors>
+	</field>
+	<field>
+		<id>9</id>
+		<type>Field</type>
+		<item>null</item>
+		<floortype>regular</floortype>
+			<sh>7</sh>
+		<neighboors>
+			<neighboor id='10' dir='right'></neighboor>
+			<neighboor id='14' dir='down'></neighboor>
+			<neighboor id='8' dir='left'></neighboor>
+			<neighboor id='4' dir='up'></neighboor>
+		</neighboors>
+	</field>
+	<field>
+		<id>10</id>
+		<type>Wall</type>
+		<item>null</item>
+		<floortype>regular</floortype>
+		<neighboors>
+			<neighboor id='5' dir='up'></neighboor>
+			<neighboor id='9' dir='left'></neighboor>
+			<neighboor id='15' dir='down'></neighboor>
+		</neighboors>
+	</field>
+	<field>
+		<id>11</id>
+		<type>Wall</type>
+		<item>null</item>
+		<floortype>regular</floortype>
+		<neighboors>
+			<neighboor id='6' dir='up'></neighboor>
+			<neighboor id='12' dir='right'></neighboor>
+			<neighboor id='16' dir='down'></neighboor>
+		</neighboors>
+	</field>
+	<field>
+		<id>12</id>
+		<type>Regular</type>
+		<item>null</item>
+		<floortype>regular</floortype>
+
+		<neighboors>
+			<neighboor id='13' dir='right'></neighboor>
+			<neighboor id='17' dir='down'></neighboor>
+			<neighboor id='11' dir='left'></neighboor>
+			<neighboor id='7' dir='up'></neighboor>
+		</neighboors>
+	</field>
+	<field>
+		<id>13</id>
+		<type>Target</type>
+		<item>null</item>
+		<floortype>regular</floortype>
+		<neighboors>
+			<neighboor id='14' dir='right'></neighboor>
+			<neighboor id='18' dir='down'></neighboor>
+			<neighboor id='12' dir='left'></neighboor>
+			<neighboor id='8' dir='up'></neighboor>
+		</neighboors>
+	</field>
+	<field>
+		<id>14</id>
+		<type>Regular</type>
+		<item>null</item>
+		<floortype>regular</floortype>
+
+		<neighboors>
+			<neighboor id='15' dir='right'></neighboor>
+			<neighboor id='19' dir='down'></neighboor>
+			<neighboor id='13' dir='left'></neighboor>
+			<neighboor id='9' dir='up'></neighboor>
+		</neighboors>
+	</field>
+	<field>
+		<id>15</id>
+		<type>Wall</type>
+		<item>null</item>
+		<floortype>regular</floortype>
+		<neighboors>
+			<neighboor id='20' dir='down'></neighboor>
+			<neighboor id='14' dir='left'></neighboor>
+			<neighboor id='10' dir='up'></neighboor>
+		</neighboors>
+	</field>
+	<field>
+		<id>16</id>
+		<type>Wall</type>
+		<item>null</item>
+		<floortype>regular</floortype>
+		<neighboors>
+			<neighboor id='17' dir='right'></neighboor>
+			<neighboor id='21' dir='down'></neighboor>
+			<neighboor id='11' dir='up'></neighboor>
+		</neighboors>
+	</field>
+	<field>
+		<id>17</id>
+		<type>Field</type>
+		<item>null</item>
+		<floortype>regular</floortype>
+		<neighboors>
+			<neighboor id='18' dir='right'></neighboor>
+			<neighboor id='22' dir='down'></neighboor>
+			<neighboor id='16' dir='left'></neighboor>
+			<neighboor id='12' dir='up'></neighboor>
+		</neighboors>
+	</field>
+	<field>
+		<id>18</id>
+		<type>Regular</type>
+		<item>Box</item>
+		<floortype>regular</floortype>
+		<neighboors>
+			<neighboor id='19' dir='right'></neighboor>
+			<neighboor id='23' dir='down'></neighboor>
+			<neighboor id='17' dir='left'></neighboor>
+			<neighboor id='13' dir='up'></neighboor>
+		</neighboors>
+	</field>
+	<field>
+		<id>19</id>
+		<type>Field</type>
+		<item>null</item>
+		<floortype>regular</floortype>
+		<neighboors>
+			<neighboor id='20' dir='right'></neighboor>
+			<neighboor id='24' dir='down'></neighboor>
+			<neighboor id='18' dir='left'></neighboor>
+			<neighboor id='14' dir='up'></neighboor>
+		</neighboors>
+	</field>
+	<field>
+		<id>20</id>
+		<type>Wall</type>
+		<item>null</item>
+		<floortype>regular</floortype>
+		<neighboors>
+			<neighboor id='15' dir='up'></neighboor>
+			<neighboor id='19' dir='left'></neighboor>
+			<neighboor id='25' dir='down'></neighboor>
+		</neighboors>
+	</field>
+	<field>
+		<id>21</id>
+		<type>Wall</type>
+		<item>null</item>
+		<floortype>regular</floortype>
+		<neighboors>
+			<neighboor id='22' dir='right'></neighboor>
+			<neighboor id='16' dir='up'></neighboor>
+			<neighboor id='26' dir='down'></neighboor>
+		</neighboors>
+	</field>
+	<field>
+		<id>22</id>
+		<type>Target</type>
+		<item>null</item>
+		<floortype>regular</floortype>
+		<neighboors>
+			<neighboor id='17' dir='up'></neighboor>
+			<neighboor id='23' dir='right'></neighboor>
+			<neighboor id='21' dir='left'></neighboor>
+			<neighboor id='27' dir='down'></neighboor>
+		</neighboors>
+	</field>
+	<field>
+		<id>23</id>
+		<type>Field</type>
+		<item>Player</item>
+		<floortype>regular</floortype>
+		<neighboors>
+			<neighboor id='22' dir='left'></neighboor>
+			<neighboor id='18' dir='up'></neighboor>
+			<neighboor id='24' dir='right'></neighboor>
+			<neighboor id='28' dir='down'></neighboor>
+		</neighboors>
+	</field>
+	<field>
+		<id>24</id>
+		<type>Field</type>
+		<item>Box</item>
+		<floortype>regular</floortype>
+		<neighboors>
+			<neighboor id='19' dir='up'></neighboor>
+			<neighboor id='25' dir='right'></neighboor>
+			<neighboor id='23' dir='left'></neighboor>
+			<neighboor id='29' dir='down'></neighboor>
+		</neighboors>
+	</field>
+	<field>
+		<id>25</id>
+		<type>Wall</type>
+		<item>null</item>
+		<floortype>regular</floortype>
+		<neighboors>
+			<neighboor id='20' dir='up'></neighboor>
+			<neighboor id='24' dir='left'></neighboor>
+			<neighboor id='30' dir='down'></neighboor>
+		</neighboors>
+	</field>
+	<field>
+		<id>26</id>
+		<type>Wall</type>
+		<item>null</item>
+		<floortype>regular</floortype>
+		<neighboors>
+			<neighboor id='21' dir='up'></neighboor>
+			<neighboor id='27' dir='right'></neighboor>
+			<neighboor id='31' dir='down'></neighboor>
+		</neighboors>
+	</field>
+	<field>
+		<id>27</id>
+		<type>Field</type>
+		<item>Player</item>
+		<floortype>regular</floortype>
+		<neighboors>
+			<neighboor id='22' dir='up'></neighboor>
+			<neighboor id='28' dir='right'></neighboor>
+			<neighboor id='32' dir='down'></neighboor>
+			<neighboor id='26' dir='left'></neighboor>
+		</neighboors>
+	</field>
+	<field>
+		<id>28</id>
+		<type>Field</type>
+		<item>null</item>
+		<floortype>regular</floortype>
+		<neighboors>
+			<neighboor id='23' dir='up'></neighboor>
+			<neighboor id='29' dir='right'></neighboor>
+			<neighboor id='33' dir='down'></neighboor>
+			<neighboor id='27' dir='left'></neighboor>
+		</neighboors>
+	</field>
+	<field>
+		<id>29</id>
+		<type>Field</type>
+		<item>null</item>
+		<floortype>regular</floortype>
+		<neighboors>
+			<neighboor id='24' dir='up'></neighboor>
+			<neighboor id='30' dir='right'></neighboor>
+			<neighboor id='34' dir='down'></neighboor>
+			<neighboor id='39' dir='left'></neighboor>
+		</neighboors>
+	</field>
+	<field>
+		<id>30</id>
+		<type>Wall</type>
+		<item>null</item>
+		<floortype>regular</floortype>
+		<neighboors>
+			<neighboor id='25' dir='up'></neighboor>
+			<neighboor id='29' dir='left'></neighboor>
+			<neighboor id='35' dir='down'></neighboor>
+		</neighboors>
+	</field>
+	<field>
+		<id>31</id>
+		<type>Wall</type>
+		<item>null</item>
+		<floortype>regular</floortype>
+		<neighboors>
+			<neighboor id='26' dir='up'></neighboor>
+			<neighboor id='32' dir='right'></neighboor>
+			<neighboor id='36' dir='down'></neighboor>
+		</neighboors>
+	</field>
+	<field>
+		<id>32</id>
+		<type>Field</type>
+		<item>Box</item>
+		<floortype>regular</floortype>
+		<neighboors>
+			<neighboor id='27' dir='up'></neighboor>
+			<neighboor id='33' dir='right'></neighboor>
+			<neighboor id='37' dir='down'></neighboor>
+			<neighboor id='31' dir='left'></neighboor>
+		</neighboors>
+	</field>
+	<field>
+		<id>33</id>
+		<type>Target</type>
+		<item>null</item>
+		<floortype>regular</floortype>
+		<neighboors>
+			<neighboor id='28' dir='up'></neighboor>
+			<neighboor id='34' dir='right'></neighboor>
+			<neighboor id='38' dir='down'></neighboor>
+			<neighboor id='32' dir='left'></neighboor>
+		</neighboors>
+	</field>
+	<field>
+		<id>34</id>
+		<type>Field</type>
+		<item>null</item>
+		<floortype>regular</floortype>
+		<neighboors>
+			<neighboor id='29' dir='up'></neighboor>
+			<neighboor id='35' dir='right'></neighboor>
+			<neighboor id='39' dir='down'></neighboor>
+			<neighboor id='33' dir='left'></neighboor>
+		</neighboors>
+	</field>
+	<field>
+		<id>35</id>
+		<type>Wall</type>
+		<item>null</item>
+		<floortype>regular</floortype>
+		<neighboors>
+			<neighboor id='30' dir='up'></neighboor>
+			<neighboor id='34' dir='left'></neighboor>
+			<neighboor id='40' dir='down'></neighboor>
+		</neighboors>
+	</field>
+	<field>
+		<id>36</id>
+		<type>Wall</type>
+		<item>null</item>
+		<floortype>regular</floortype>
+		<neighboors>
+			<neighboor id='31' dir='up'></neighboor>
+			<neighboor id='37' dir='right'></neighboor>
+			<neighboor id='41' dir='down'></neighboor>
+		</neighboors>
+	</field>
+	<field>
+		<id>37</id>
+		<type>Field</type>
+		<item>null</item>
+		<floortype>regular</floortype>
+		<neighboors>
+			<neighboor id='32' dir='up'></neighboor>
+			<neighboor id='38' dir='right'></neighboor>
+			<neighboor id='42' dir='down'></neighboor>
+			<neighboor id='36' dir='left'></neighboor>
+		</neighboors>
+	</field>
+	<field>
+		<id>38</id>
+		<type>Field</type>
+		<item>null</item>
+		<floortype>regular</floortype>
+		<neighboors>
+			<neighboor id='33' dir='up'></neighboor>
+			<neighboor id='39' dir='right'></neighboor>
+			<neighboor id='43' dir='down'></neighboor>
+			<neighboor id='37' dir='left'></neighboor>
+		</neighboors>
+	</field>
+	<field>
+		<id>39</id>
+		<type>Field</type>
+		<item>null</item>
+		<floortype>regular</floortype>
+		<neighboors>
+			<neighboor id='34' dir='up'></neighboor>
+			<neighboor id='40' dir='right'></neighboor>
+			<neighboor id='44' dir='down'></neighboor>
+			<neighboor id='38' dir='left'></neighboor>
+		</neighboors>
+	</field>
+	<field>
+		<id>40</id>
+		<type>Wall</type>
+		<item>null</item>
+		<floortype>regular</floortype>
+		<neighboors>
+			<neighboor id='35' dir='up'></neighboor>
+			<neighboor id='39' dir='left'></neighboor>
+			<neighboor id='45' dir='down'></neighboor>
+		</neighboors>
+	</field>
+	<field>
+		<id>41</id>
+		<type>Wall</type>
+		<item>null</item>
+		<floortype>regular</floortype>
+		<neighboors>
+			<neighboor id='36' dir='up'></neighboor>
+			<neighboor id='42' dir='right'></neighboor>
+			<neighboor id='46' dir='down'></neighboor>
+		</neighboors>
+	</field>
+	<field>
+		<id>42</id>
+		<type>Field</type>
+		<item>null</item>
+		<floortype>regular</floortype>
+		<neighboors>
+			<neighboor id='37' dir='up'></neighboor>
+			<neighboor id='43' dir='right'></neighboor>
+			<neighboor id='47' dir='down'></neighboor>
+			<neighboor id='41' dir='left'></neighboor>
+		</neighboors>
+	</field>
+	<field>
+		<id>43</id>
+		<type>Hole</type>
+		<item>null</item>
+		<floortype>regular</floortype>
+		<neighboors>
+			<neighboor id='38' dir='up'></neighboor>
+			<neighboor id='44' dir='right'></neighboor>
+			<neighboor id='48' dir='down'></neighboor>
+			<neighboor id='42' dir='left'></neighboor>
+		</neighboors>
+	</field>
+	<field>
+		<id>44</id>
+		<type>Target</type>
+		<item>null</item>
+		<floortype>regular</floortype>
+		<neighboors>
+			<neighboor id='39' dir='up'></neighboor>
+			<neighboor id='45' dir='right'></neighboor>
+			<neighboor id='49' dir='down'></neighboor>
+			<neighboor id='43' dir='left'></neighboor>
+		</neighboors>
+	</field>
+	<field>
+		<id>45</id>
+		<type>Wall</type>
+		<item>null</item>
+		<floortype>regular</floortype>
+		<neighboors>
+			<neighboor id='40' dir='up'></neighboor>
+			<neighboor id='44' dir='left'></neighboor>
+			<neighboor id='50' dir='down'></neighboor>
+		</neighboors>
+	</field>
+	<field>
+		<id>46</id>
+		<type>Wall</type>
+		<item>null</item>
+		<floortype>regular</floortype>
+		<neighboors>
+			<neighboor id='41' dir='up'></neighboor>
+			<neighboor id='47' dir='right'></neighboor>
+		</neighboors>
+	</field>
+	<field>
+		<id>47</id>
+		<type>Wall</type>
+		<item>null</item>
+		<floortype>regular</floortype>
+		<neighboors>
+			<neighboor id='42' dir='up'></neighboor>
+			<neighboor id='46' dir='left'></neighboor>
+			<neighboor id='48' dir='right'></neighboor>
+		</neighboors>
+	</field>
+	<field>
+		<id>48</id>
+		<type>Wall</type>
+		<item>null</item>
+		<floortype>regular</floortype>
+		<neighboors>
+			<neighboor id='43' dir='up'></neighboor>
+			<neighboor id='47' dir='left'></neighboor>
+			<neighboor id='49' dir='right'></neighboor>
+		</neighboors>
+	</field>
+	<field>
+		<id>49</id>
+		<type>Wall</type>
+		<item>null</item>
+		<floortype>regular</floortype>
+		<neighboors>
+			<neighboor id='44' dir='up'></neighboor>
+			<neighboor id='48' dir='left'></neighboor>
+			<neighboor id='50' dir='right'></neighboor>
+		</neighboors>
+	</field>
+	<field>
+		<id>50</id>
+		<type>Wall</type>
+		<item>null</item>
+		<floortype>regular</floortype>
+		<neighboors>
+			<neighboor id='45' dir='up'></neighboor>
+			<neighboor id='49' dir='left'></neighboor>
+		</neighboors>
+	</field>
+</map>
+</root>

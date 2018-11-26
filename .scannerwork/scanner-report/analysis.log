@@ -1,0 +1,145 @@
+Environment variables:
+  - =::=::\
+  - =C:=C:\Users\Dani\IdeaProjects\projlab\projlab
+  - ALLUSERSPROFILE=C:\ProgramData
+  - APPDATA=C:\Users\Dani\AppData\Roaming
+  - COMPUTERNAME=DESKTOP-2406SHT
+  - ComSpec=C:\Windows\system32\cmd.exe
+  - CommonProgramFiles=C:\Program Files\Common Files
+  - CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+  - CommonProgramW6432=C:\Program Files\Common Files
+  - DriverData=C:\Windows\System32\Drivers\DriverData
+  - ERROR_CODE=0
+  - FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
+  - FPS_BROWSER_USER_PROFILE_STRING=Default
+  - HOMEDRIVE=C:
+  - HOMEPATH=\Users\Dani
+  - JAVA_EXEC="D:\Programok\sonar-scanner-3.2.0.1227-windows\bin\..\jre\bin\java.exe"
+  - JAVA_HOME=D:\Programok\sonar-scanner-3.2.0.1227-windows\bin\..\jre
+  - LOCALAPPDATA=C:\Users\Dani\AppData\Local
+  - LOGONSERVER=\\DESKTOP-2406SHT
+  - NUMBER_OF_PROCESSORS=4
+  - OS=Windows_NT
+  - OneDrive=C:\Users\Dani\OneDrive
+  - PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+  - PROCESSOR_ARCHITECTURE=AMD64
+  - PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 61 Stepping 4, GenuineIntel
+  - PROCESSOR_LEVEL=6
+  - PROCESSOR_REVISION=3d04
+  - PROJECT_HOME=C:\Users\Dani\IdeaProjects\projlab\projlab
+  - PROMPT=$P$G
+  - PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+  - PUBLIC=C:\Users\Public
+  - Path=C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\Dani\AppData\Local\Microsoft\WindowsApps;D:\Programok\Python;D:\Programok\Python\Scripts;D:\Programok\CIRCLE;C:\Users\Dani\AppData\Local\Microsoft\WindowsApps;
+  - ProgramData=C:\ProgramData
+  - ProgramFiles=C:\Program Files
+  - ProgramFiles(x86)=C:\Program Files (x86)
+  - ProgramW6432=C:\Program Files
+  - SESSIONNAME=Console
+  - SONAR_SCANNER_HOME=D:\Programok\sonar-scanner-3.2.0.1227-windows\bin\..
+  - SystemDrive=C:
+  - SystemRoot=C:\Windows
+  - TEMP=C:\Users\Dani\AppData\Local\Temp
+  - TMP=C:\Users\Dani\AppData\Local\Temp
+  - USERDOMAIN=DESKTOP-2406SHT
+  - USERDOMAIN_ROAMINGPROFILE=DESKTOP-2406SHT
+  - USERNAME=Dani
+  - USERPROFILE=C:\Users\Dani
+  - scriptdir=D:\Programok\sonar-scanner-3.2.0.1227-windows\bin
+  - use_embedded_jre=true
+  - windir=C:\Windows
+System properties:
+  - awt.toolkit=sun.awt.windows.WToolkit
+  - file.encoding=Cp1250
+  - file.encoding.pkg=sun.io
+  - file.separator=\
+  - java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment
+  - java.awt.headless=true
+  - java.awt.printerjob=sun.awt.windows.WPrinterJob
+  - java.class.path=D:\Programok\sonar-scanner-3.2.0.1227-windows\bin\..\lib\sonar-scanner-cli-3.2.0.1227.jar
+  - java.class.version=52.0
+  - java.endorsed.dirs=D:\Programok\sonar-scanner-3.2.0.1227-windows\jre\lib\endorsed
+  - java.ext.dirs=D:\Programok\sonar-scanner-3.2.0.1227-windows\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+  - java.home=D:\Programok\sonar-scanner-3.2.0.1227-windows\jre
+  - java.io.tmpdir=C:\Users\Dani\AppData\Local\Temp\
+  - java.library.path=D:\Programok\sonar-scanner-3.2.0.1227-windows\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\Dani\AppData\Local\Microsoft\WindowsApps;D:\Programok\Python;D:\Programok\Python\Scripts;D:\Programok\CIRCLE;C:\Users\Dani\AppData\Local\Microsoft\WindowsApps;;.
+  - java.runtime.name=Java(TM) SE Runtime Environment
+  - java.runtime.version=1.8.0_121-b13
+  - java.specification.name=Java Platform API Specification
+  - java.specification.vendor=Oracle Corporation
+  - java.specification.version=1.8
+  - java.vendor=Oracle Corporation
+  - java.vendor.url=http://java.oracle.com/
+  - java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+  - java.version=1.8.0_121
+  - java.vm.info=mixed mode
+  - java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+  - java.vm.specification.name=Java Virtual Machine Specification
+  - java.vm.specification.vendor=Oracle Corporation
+  - java.vm.specification.version=1.8
+  - java.vm.vendor=Oracle Corporation
+  - java.vm.version=25.121-b13
+  - line.separator=
+
+  - os.arch=amd64
+  - os.name=Windows 10
+  - os.version=10.0
+  - path.separator=;
+  - project.home=C:\Users\Dani\IdeaProjects\projlab\projlab
+  - scanner.home=D:\Programok\sonar-scanner-3.2.0.1227-windows\bin\..
+  - sun.arch.data.model=64
+  - sun.boot.class.path=D:\Programok\sonar-scanner-3.2.0.1227-windows\jre\lib\resources.jar;D:\Programok\sonar-scanner-3.2.0.1227-windows\jre\lib\rt.jar;D:\Programok\sonar-scanner-3.2.0.1227-windows\jre\lib\sunrsasign.jar;D:\Programok\sonar-scanner-3.2.0.1227-windows\jre\lib\jsse.jar;D:\Programok\sonar-scanner-3.2.0.1227-windows\jre\lib\jce.jar;D:\Programok\sonar-scanner-3.2.0.1227-windows\jre\lib\charsets.jar;D:\Programok\sonar-scanner-3.2.0.1227-windows\jre\lib\jfr.jar;D:\Programok\sonar-scanner-3.2.0.1227-windows\jre\classes
+  - sun.boot.library.path=D:\Programok\sonar-scanner-3.2.0.1227-windows\jre\bin
+  - sun.cpu.endian=little
+  - sun.cpu.isalist=amd64
+  - sun.desktop=windows
+  - sun.io.unicode.encoding=UnicodeLittle
+  - sun.java.command=org.sonarsource.scanner.cli.Main -X
+  - sun.java.launcher=SUN_STANDARD
+  - sun.jnu.encoding=Cp1250
+  - sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+  - sun.os.patch.level=
+  - sun.stderr.encoding=cp852
+  - sun.stdout.encoding=cp852
+  - user.country=HU
+  - user.dir=C:\Users\Dani\IdeaProjects\projlab\projlab
+  - user.home=C:\Users\Dani
+  - user.language=hu
+  - user.name=Dani
+  - user.script=
+  - user.timezone=Europe/Prague
+  - user.variant=
+SonarQube plugins:
+  - SonarPython 1.10.0.2131 (python)
+  - SonarCSS 1.0.2.611 (cssfamily)
+  - JaCoCo 1.0.1.143 (jacoco)
+  - SonarGo 1.1.0.1612 (go)
+  - SonarKotlin 1.2.1.2009 (kotlin)
+  - Svn 1.9.0.1295 (scmsvn)
+  - SonarJS 5.0.0.6962 (javascript)
+  - SonarRuby 1.2.1.2009 (ruby)
+  - SonarC# 7.7.0.7192 (csharp)
+  - SonarJava 5.8.0.15699 (java)
+  - LDAP 2.2.0.608 (ldap)
+  - Git 1.6.0.1349 (scmgit)
+  - SonarFlex 2.4.0.1222 (flex)
+  - SonarXML 1.5.1.1452 (xml)
+  - SonarPHP 2.14.0.3569 (php)
+  - SonarTS 1.8.0.3332 (typescript)
+  - SonarVB 7.7.0.7192 (vbnet)
+Global properties:
+  - sonar.core.id=BF41A1F2-AWb4x9q39peEL-y4benl
+  - sonar.core.startTime=2018-11-26T12:34:35+0100
+Settings for module: teszz888
+  - sonar.host.url=http://localhost:9000
+  - sonar.java.binaries=.
+  - sonar.projectBaseDir=C:\Users\Dani\IdeaProjects\projlab\projlab
+  - sonar.projectKey=teszz888
+  - sonar.projectName=Paac
+  - sonar.projectVersion=1.1
+  - sonar.scanner.app=ScannerCli
+  - sonar.scanner.appVersion=3.2.0.1227
+  - sonar.sourceEncoding=windows-1250
+  - sonar.sources=./src/
+  - sonar.verbose=true
+  - sonar.working.directory=C:\Users\Dani\IdeaProjects\projlab\projlab\.scannerwork
